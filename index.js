@@ -44,7 +44,7 @@ app.get("/" ,  (req,res)=>{
     res.send("hello new sibtain");
 });
 
-app.get("/name" , ()=>{
+app.get("/name" , (req,res)=>{
     res.send("name is muhammad sibtain raza");
 })
 
